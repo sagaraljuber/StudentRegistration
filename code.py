@@ -30,8 +30,6 @@ class Student:
 
 listOfStudents = []
 
-
-
 while True:
     name = input("Enter name: ")
     course = input("Enter course: ")
@@ -43,6 +41,7 @@ while True:
     choice = input("Create Another Student? [Y/Any Char] : ")
     if choice == "Y" or choice == 'y': pass
     else: break
+
 
 i = 1
 for student in listOfStudents:
